@@ -1,4 +1,6 @@
 @import "_mixins/font-face";
 
-@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
-@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("VWText", "../fonts/VWTextRegular/VWTextRegular");
+@include font-face("VWText", "../fonts/VWTextBold/VWTextBold", bold);
+@include font-face("VWHead", "../fonts/VWHeadRegular/VWHeadRegular");
+@include font-face("VWHead", "../fonts/VWHeadBold/VWHeadBold", bold);

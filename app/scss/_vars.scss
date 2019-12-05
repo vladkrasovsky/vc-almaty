@@ -1,6 +1,12 @@
-$default-font: "roboto-example", sans-serif;
-$accent: orange;
+$default-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$second-font: VWText, Helvetica, Arial, sans-serif;
+$third-font: VWHead, Helvetica, Arial, sans-serif;
+$accent: #0099da;
 $text: #333;
+$title: #1d1f20;
+$text-small: #808890;
+$section-grey: #f3f5f6;
+$section-blue: #0099da;
 
 // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
 $grid-gutter-width: 30px;
@@ -9,3 +15,27 @@ $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
 $container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
 
 $gutter: $grid-gutter-width;
+
+$primary: $accent;
+
+$input-padding-y: .59rem;
+$input-padding-x: 1rem;
+
+$custom-control-gutter:                 2.5rem !default;
+$custom-control-spacer-x:               2rem !default;
+$custom-control-indicator-size:         2rem !default;
+$custom-control-indicator-bg:           #fff;
+$custom-control-indicator-bg-size:      80% 80% !default;
+$custom-control-indicator-checked-color:        $accent;
+$custom-control-indicator-checked-bg:           #fff;
+$custom-control-indicator-focus-box-shadow: none;
+
+$custom-checkbox-indicator-icon-checked: url("../img/icons/check.png");
+
+// Customization Slick vars from "app/libs/slick/scss/slick-theme.scss"
+$slick-font-path: "../fonts/slick/" !default;
+$slick-loader-path: "../img/";
+
+$slick-dot-size: 13px;
+$slick-dot-color: #808890;
+$slick-dot-color-active: $accent;
